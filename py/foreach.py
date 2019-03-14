@@ -11,3 +11,9 @@ while count<len(fav_movies):
     # count += 1
     #经过试验没有发现 ++ 运算符
 #########py是根据缩进来识别代码块而不是大括号########
+
+if isinstance(fav_movies,list):
+    print("this is list")
+else:
+    print("this is not list")
+        
